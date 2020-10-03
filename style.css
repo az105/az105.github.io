@@ -13,6 +13,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+a {
+  color: #f2f2f2;
+}
+
+a:hover {
+  background-color: #9c7a97;
+}
+
+a:visited {
+  color: #f2f2f2;
+}
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -21,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style the topnav links */
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -46,4 +58,5 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #755771;
   padding: 10px;
   color: #f2f2f2;
+  text-align: center;
 }
