@@ -8,12 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/25ceccc02a.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="favicon.png"/>
+    <script>
+      function beNice() {
+        var name = prompt("What's your name?");
+        return alert("Hi, " + name + "! You matter to me.");
+      }
+    </script>
   <body>
 
     <div class="topnav">
       <a href="index.html">home</a>
       <a href="about.html">about</a>
       <a href="https://docs.google.com/spreadsheets/d/1gZM9ydRelVIdgm833IvhdhD8hq7F6STnvsV-SRxZ3LU/edit#gid=0">book recs</a>
+      <a onclick="return beNice()">need a pick-me-up?</a>
     </div>
 
     <div class="content">
